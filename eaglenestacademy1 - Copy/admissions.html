@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apply to Eaglenest Academy and learn about our admissions process, school visits, and enrollment steps in Nairobi, Kenya.">
+  <title>Admissions - Eaglenest Academy</title>
+  <script src="assets/js/tailwind-config.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="bg-white font-body text-ink">
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="bg-gradient-to-br from-sky-50 via-white to-leaf-50 py-20 md:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl reveal">
+          <p class="mb-4 inline-flex rounded-full bg-leaf-100 px-4 py-2 text-sm font-semibold uppercase tracking-[0.12em] text-leaf-700">Admissions</p>
+          <h1 class="font-heading text-4xl text-ink md:text-5xl lg:text-6xl">Start your child’s journey with Eaglenest Academy.</h1>
+          <p class="mt-6 text-lg leading-8 text-ink/75">We welcome families seeking a nurturing, high-quality education in a child-centred environment. We make the admissions process clear, warm, and supportive.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-8 lg:grid-cols-3">
+          <div class="reveal rounded-3xl bg-sky-50 p-6 shadow-soft">
+            <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-gradient text-lg font-bold text-white">1</div>
+            <h2 class="font-heading text-2xl text-ink">Enquire</h2>
+            <p class="mt-3 text-ink/70">Contact us to ask questions, learn about availability, and request information about your preferred class.</p>
+          </div>
+          <div class="reveal rounded-3xl bg-leaf-50 p-6 shadow-soft">
+            <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-gradient text-lg font-bold text-white">2</div>
+            <h2 class="font-heading text-2xl text-ink">Visit</h2>
+            <p class="mt-3 text-ink/70">Book a campus tour and meet our teachers to understand the learning environment and values of the school.</p>
+          </div>
+          <div id="apply" class="reveal rounded-3xl bg-slate-100 p-6 shadow-soft">
+            <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-gradient text-lg font-bold text-white">3</div>
+            <h2 class="font-heading text-2xl text-ink">Apply</h2>
+            <p class="mt-3 text-ink/70">Complete the application form, share relevant details, and secure your place for the next term.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-50 py-16 md:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-2">
+          <div class="reveal rounded-3xl bg-white p-8 shadow-soft">
+            <h2 class="font-heading text-3xl text-ink">Application form</h2>
+            <p class="mt-4 text-ink/70">Please complete the form below and our admissions team will get back to you shortly.</p>
+            <form class="mt-6 space-y-5" action="mailto:info@eaglenestacademy.ac.ke" method="post" enctype="text/plain">
+              <div>
+                <label for="parent-name" class="mb-2 block text-sm font-semibold text-ink">Parent/Guardian name</label>
+                <input id="parent-name" name="parent-name" type="text" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="Your name">
+              </div>
+              <div>
+                <label for="child-name" class="mb-2 block text-sm font-semibold text-ink">Child's name</label>
+                <input id="child-name" name="child-name" type="text" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="Child's name">
+              </div>
+              <div>
+                <label for="age-group" class="mb-2 block text-sm font-semibold text-ink">Preferred age group / class</label>
+                <input id="age-group" name="age-group" type="text" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="e.g. Grade 2, Pre-Primary">
+              </div>
+              <div>
+                <label for="email" class="mb-2 block text-sm font-semibold text-ink">Email address</label>
+                <input id="email" name="email" type="email" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="you@example.com">
+              </div>
+              <div>
+                <label for="phone" class="mb-2 block text-sm font-semibold text-ink">Phone number</label>
+                <input id="phone" name="phone" type="tel" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="+254 ...">
+              </div>
+              <div>
+                <label for="message" class="mb-2 block text-sm font-semibold text-ink">Message</label>
+                <textarea id="message" name="message" rows="5" class="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" placeholder="Tell us about your child and your preferred start date"></textarea>
+              </div>
+              <button type="submit" class="rounded-xl bg-leaf-500 px-6 py-3 font-semibold text-white transition hover:bg-leaf-600">Submit application</button>
+            </form>
+          </div>
+
+          <div class="reveal rounded-3xl bg-ink p-8 text-white shadow-soft-xl">
+            <h2 class="font-heading text-3xl text-white">Need help?</h2>
+            <p class="mt-4 text-sky-100">Our admissions staff are available to guide you through the process and answer any questions you may have.</p>
+            <ul class="mt-6 space-y-4 text-sky-100">
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-leaf-400"></span> <a href="tel:+254792264544" class="hover:text-white">+254 792 264 544</a></li>
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-leaf-400"></span> <a href="mailto:info@eaglenestacademy.ac.ke" class="break-all hover:text-white">info@eaglenestacademy.ac.ke</a></li>
+              <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-leaf-400"></span> Visit us in Nairobi, Kenya</li>
+            </ul>
+            <a href="contact.html#visit" class="mt-8 inline-flex rounded-xl bg-leaf-500 px-6 py-3 font-semibold text-white transition hover:bg-leaf-600">Book a visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
